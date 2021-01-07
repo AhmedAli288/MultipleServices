@@ -1,0 +1,23 @@
+.fa {
+  font-weight: 400 !important;
+  font-family: "Font Awesome 5 Pro" !important;
+}
+
+.fas {
+  font-weight: 400 !important;
+  font-family: "Font Awesome 5 Pro" !important;
+}
+
+.btn {
+  display: flex !important;
+}
+
+.dropdown-menu {
+  min-width: max-content !important;
+  padding: 35px !important;
+}
+
+.sl-footerCenter__newsletter button[type="submit"] {
+  height: 44px;
+  margin-left: -5px;
+}
