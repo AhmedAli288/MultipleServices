@@ -1,0 +1,194 @@
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+a {
+  color: #2196f3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+#pay {
+  cursor: pointer;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+.info-bttn {
+  display: flex;
+  justify-content: flex-start;
+}
+.reset-bttn {
+  margin-right: 10px;
+}
+.reset-bttn:hover {
+  background: #e6e6e6 !important;
+  border: 2px solid rgba(0, 0, 0, 0.57) !important;
+}
+.info-bttn p {
+  width: 80%;
+  margin-top: 10px;
+}
+
+/* Invoice START */
+.invoice table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  text-align: center !important;
+}
+
+.invoice td,
+.invoice th {
+  text-align: left;
+  padding: 8px;
+}
+
+.invoice table tbody tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.invoice table tbody {
+  border: 1px solid #e5e5e5;
+}
+.invoice table tfoot th,
+tfoot td {
+  border: 1px solid #dddddd;
+}
+.invoice-desc {
+  width: 100% !important;
+}
+
+.invoice-head {
+  display: inline-block;
+}
+
+.alignright {
+  text-align: right !important;
+  float: right !important;
+}
+
+.authorty .bttns {
+  margin-top: 5px;
+}
+.authorty .bttns .btn-success {
+  background-color: green;
+}
+.authorty .bttns .btn-danger {
+  margin-left: 10px;
+  background-color: red;
+}
+
+.authorty .bttns .btn-danger i,
+.btn-success .fa {
+  margin: 3px;
+}
+
+.invoice-head {
+  display: inline-block;
+}
+.invoice-head .alignleft {
+  float: left;
+}
+.invoice-head .alignright {
+  float: right !important;
+}
+
+.ship-adre {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.ship-adre .alignleft {
+  float: left;
+}
+
+.ship-adre .alignright {
+  float: right;
+}
+.authorty {
+  width: 100%;
+  display: inline-block !important;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.authorty .bttns {
+  float: left !important;
+}
+.authorty .alignright {
+  float: right !important;
+}
+
+.authorty .bttns .btn-success {
+  width: 140px;
+  height: 35px;
+  margin-left: 10px;
+}
+.authorty .bttns .btn-danger {
+  width: 140px;
+  height: 35px;
+  margin-bottom: 5px;
+}
+
+/* Invoice END */

@@ -1,0 +1,179 @@
+.shopping-cart {
+  margin: 30px auto;
+  border: 1px solid #00000026;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-bottom: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  height: 60px;
+  border-bottom: 1px solid #e1e8ee;
+  padding: 20px 30px;
+  color: #5e6977;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.item_cart {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+  border-bottom: 1px solid #00000026;
+}
+
+.buttons {
+  position: relative;
+  padding-top: 30px;
+  margin-right: 60px;
+}
+
+.image {
+  margin-right: 50px;
+}
+
+/* Let’s add some basic style to product name and description.  */
+
+.description span {
+  display: block;
+  font-size: 14px;
+  color: #43484d;
+  font-weight: 400;
+}
+
+.description span:first-child {
+  margin-bottom: 5px;
+}
+.description span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #86939e;
+}
+
+.quantity {
+  text-align: center !important;
+  /* padding-top: 20px; */
+  margin-right: 60px;
+}
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484d;
+  font-weight: 300;
+}
+
+.btn button[class*="btn"] {
+  width: 30px;
+  height: 30px;
+  background-color: #e1e8ee;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.minus-btn img {
+  margin-bottom: 3px;
+}
+.plus-btn img {
+  margin-top: -2px;
+}
+
+.bttns input {
+  border: 1px solid #e5e5e5;
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.bttns button:focus,
+.bttns input:focus {
+  outline: 0;
+}
+
+.total-price {
+  text-align: center;
+  color: #43484d;
+}
+
+.heade {
+  font-size: 13px;
+  font-weight: 700 !important;
+}
+.price-heade {
+  font-size: 18px;
+}
+
+@media (max-width: 800px) {
+  .shopping-cart {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .item_cart {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image img {
+    width: 50%;
+  }
+  .image,
+  .quantity,
+  .description {
+    width: 100%;
+    text-align: center;
+    margin: 6px 0;
+  }
+  .bttns .buttons {
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+}
+
+.image img {
+  width: 60px;
+  height: 80px;
+}
+
+.bttns {
+  margin-bottom: 10px;
+}
+.description {
+  font-size: 15px;
+}
+.description span {
+  font-size: 15px;
+}
+
+.milk_cart {
+  top: 100%;
+  display: row;
+  padding: 35px;
+  margin: 10px;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 0.25rem;
+}
+
+.milk_cart li:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+.milk_cart li {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.milk_cart li img {
+  height: 60px;
+}

@@ -1,0 +1,74 @@
+.LaundryCardMen {
+  background: url(../assets/images/men.jpg) no-repeat center center/cover;
+}
+
+.LaundryCardWomen {
+  background: url(../assets/images/women.jpg) no-repeat center center/cover;
+}
+
+.LaundryCardHouse {
+  background: url(../assets/images/house.jpg) no-repeat center center/cover;
+}
+
+.LaundryCardCommercial {
+  background: url(../assets/images/commercial.jpg) no-repeat center center/cover;
+}
+
+.LaundryCardMen,
+.LaundryCardWomen,
+.LaundryCardHouse,
+.LaundryCardCommercial {
+  position: relative;
+  background-size: cover !important;
+  height: 220px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.LaundryCardMenTitle,
+.LaundryCardWomenTitle,
+.LaundryCardHouseTitle,
+.LaundryCardCommercialTitle {
+  position: absolute;
+  z-index: 2 !important;
+  text-align: center;
+  margin: 40% auto;
+}
+
+.LaundryCardMen .overlay,
+.LaundryCardWomen .overlay,
+.LaundryCardHouse .overlay,
+.LaundryCardCommercial .overlay {
+  background: #0000008a !important;
+  border-radius: 5px;
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 0.7;
+  z-index: 1 !important;
+}
+
+.LaundryCardMenTitle h3 {
+  color: #fff;
+  font-size: 35px;
+  line-height: 1;
+  font-weight: 600;
+}
+.LaundryCardWomenTitle h3 {
+  color: #fff;
+  font-size: 35px;
+  line-height: 1;
+  font-weight: 600;
+}
+.LaundryCardHouseTitle h3 {
+  color: #fff;
+  font-size: 33px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.LaundryCardCommercialTitle h3 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 600;
+}

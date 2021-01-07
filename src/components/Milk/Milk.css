@@ -1,0 +1,81 @@
+.MilkDaily {
+  background: url(../assets/images/milk/milk5.png) no-repeat center center/cover;
+}
+
+.MilkMonthly {
+  background: url(../assets/images/milk/milk3.jpg) no-repeat center center/cover;
+}
+
+.MilkHalfYearly {
+  background: url(../assets//images/milk/milk6.jpg) no-repeat center
+    center/cover;
+}
+
+.MilkYearly {
+  background: url(../assets//images/milk/milk2.jpg) no-repeat center
+    center/cover;
+}
+
+.MilkDaily,
+.MilkMonthly,
+.MilkHalfYearly,
+.MilkYearly {
+  position: relative;
+  background-size: cover !important;
+  height: 220px;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.MilkDailyTitle,
+.MilkMonthlyTitle,
+.MilkHalfYearlyTitle,
+.MilkYearlyTitle {
+  position: absolute;
+  z-index: 2 !important;
+  width: 100% !important;
+}
+
+.MilkDaily .overlay,
+.MilkMonthly .overlay,
+.MilkHalfYearly .overlay,
+.MilkYearly .overlay {
+  background: #0000008a !important;
+  border-radius: 5px;
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 0.8;
+  z-index: 1 !important;
+}
+
+.MilkDailyTitle h3 {
+  color: #fff;
+  font-size: 35px;
+  line-height: 1;
+  font-weight: 600;
+  text-align: center;
+}
+.MilkMonthlyTitle h3 {
+  color: #fff;
+  font-size: 35px;
+  line-height: 1;
+  font-weight: 600;
+  text-align: center;
+}
+.MilkHalfYearlyTitle h3 {
+  color: #fff;
+  font-size: 35px;
+  line-height: 1;
+  font-weight: 600;
+  text-align: center;
+}
+.MilkYearlyTitle h3 {
+  color: #fff;
+  font-size: 33px;
+  line-height: 1;
+  font-weight: 600;
+  text-align: center;
+}
